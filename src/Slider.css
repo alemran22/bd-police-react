@@ -1,0 +1,25 @@
+.main-container{
+  max-width: 1260px;
+  margin: 20px auto;
+}
+
+.main-container .slider-container{
+  position: relative;
+}
+.main-container .slider-container .slider{
+position: relative;
+}
+
+.main-container .slider-container .slider img{
+width: 100%;
+position: relative;
+}
+.main-container .slider-container .slider p{
+  position: absolute;
+  background: rgba(0, 0, 0, 0.543);
+  color: white;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px 5px;
+}

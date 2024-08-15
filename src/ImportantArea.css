@@ -1,0 +1,12 @@
+.important-area{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.important-area .important-links{
+width: 33%;
+}
+.important-area .notice-board{
+width: 66%;
+}

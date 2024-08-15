@@ -1,0 +1,48 @@
+.header_full {
+    background: linear-gradient(120deg,#101056 30%,#28a4c9,#0b1284,#28a4c9,#ffffff);
+    width: 100%;
+}
+.header_main{
+    width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header_main .left{
+    width: 36%;
+}
+.header_main .left img{
+    width: 80%;
+}
+.header_main .right{
+    width: 64%;
+    display: flex;
+    justify-content: space-between;
+}
+.header_main .right .motto{
+    color: white;
+    font-size: 27px;
+    margin: 5px 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+}
+.header_main .right .right_flt{
+    display: flex;
+    flex-direction: column;
+}
+.header_main .right .right_flt .select{
+    color: black;
+    font-size: 17px;
+    padding: 3px 5px;
+    outline: none;
+}
+.header_main .right .right_flt .hotline_img{
+    width: 96px;
+    height: 91px;
+    padding: 8px;
+}
+.header_main .right .right_flt .hotline_img img{
+    width: 100%;
+}

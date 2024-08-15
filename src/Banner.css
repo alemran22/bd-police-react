@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 1260px;
+    margin: auto;
+
+}
+.container .left{
+    width: 75%;
+    height: 300px;
+}
+
+.container .left img {
+    width: 100%;
+    height: 100%;
+}
+
+.container .right{
+    width: 25%;
+    height: auto;
+    background-color: #131B43;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.container .right img {
+height: 150px;
+width: 150px;
+border-radius: 100%;
+}
+
+.container .right .igp_message {
+    text-decoration: none;
+    color: white;
+    background-color: #AA1D22;
+    padding: 6px 10px;
+    border-radius: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+}
