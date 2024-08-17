@@ -3,7 +3,7 @@ import { HiOutlineMail } from "react-icons/hi";
 function Navbar() {
     return (
         <section className="navArea">
-            <div className="container">
+            <div className="nav-container">
                 {/* nav left */}
                 <nav className="left">
                     <a href="" className="one">Home</a>

@@ -1,56 +1,56 @@
 .navArea {
   background-color: #ad1d23;
   margin-bottom: 20px;
+ 
 }
 
-.navArea .container {
+.navArea .nav-container {
   max-width: 1260px;
   margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
 }
 
-.navArea .container .left {
+.navArea .nav-container .left {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  border: 2px solid red;
-  width: 80%;
+  width: 85%;
 }
-.navArea .container .left a {
+.navArea .nav-container .left a {
   padding: 5px 0;
-  /* font-family: "Pragati Narrow", sans-serif; */
+  font-family: "Pragati Narrow", sans-serif;
   text-decoration: none;
   color: white;
-  font-size: 18px;
-  margin: 0 4px;
+  font-size: 16px;
+  margin-right: 5px;
 }
-.navArea .container .left a:hover {
+.navArea .nav-container .left a:hover {
   background-color: #131b43;
   padding-left: 8px;
   padding-right: 8px;
   transition: all ease-in-out 300ms;
 }
-.navArea .container .right {
-  width: 20%;
+.navArea .nav-container .right {
+  width: 15%;
   color: white;
-  width: 20px;
+  text-align: right;
 }
 
-.navArea .container .right .icon {
+.navArea .nav-container .right .icon {
   color: white;
   font-size: 30px;
   font-weight: bold;
   background-color: transparent;
+  cursor: pointer;
 }
-.navArea .container .right .icon:hover {
+.navArea .nav-container .right .icon:hover {
   background-color: #131b43;
 }
 
-.navArea .container .right:hover {
-  padding-left: 10px;
-  padding-right: 10px;
+.navArea .nav-container .right:hover {
+  padding: 0 5px;
   transition: 300ms;
 }

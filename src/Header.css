@@ -34,7 +34,7 @@
 }
 .header_main .right .right_flt .select{
     color: black;
-    font-size: 17px;
+    font-size: 16px;
     padding: 3px 5px;
     outline: none;
 }
@@ -45,4 +45,6 @@
 }
 .header_main .right .right_flt .hotline_img img{
     width: 100%;
+    height: 100%;
+    padding: 5px;
 }
