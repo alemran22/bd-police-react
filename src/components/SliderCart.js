@@ -4,7 +4,8 @@ import "slick-carousel/slick/slick-theme.css";
 import React, { useRef } from "react";
 import Slider from "react-slick";
 import SliderContentData from "../sliderData";
-
+import { MdArrowBackIos } from "react-icons/md";
+import { MdArrowForwardIos } from "react-icons/md";
 function SliderCart() {
   // for slider arrow
   let sliderRef = useRef(null);
@@ -39,12 +40,13 @@ function SliderCart() {
           </div>
         ))}
       </Slider>
+      {/* arrows */}
       <div className="arrows">
         <button className="button" onClick={previous}>
-          Previous
+          <MdArrowBackIos/>
         </button>
         <button className="button" onClick={next}>
-          Next
+          <MdArrowForwardIos/>
         </button>
       </div>
     </div>

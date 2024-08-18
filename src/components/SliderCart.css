@@ -24,11 +24,17 @@ position: relative;
   right: 0;
   padding: 8px 5px;
 }
-.arrows{
+.main-container .arrows{
   position: absolute;
   display: flex;
   justify-content: space-between;
   top: 50%;
-  left: 0;
+  left: 5px;
   right: 0;
+}
+.main-container .arrows .button{
+  font-size: 30px;
+  color: white;
+  background: transparent;
+  border: none;
 }
