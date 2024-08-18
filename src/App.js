@@ -1,10 +1,9 @@
 import "./App.css";
-
-import Banner from "./Banner";
-import Header from "./Header";
-import Navbar from "./Navbar";
-import SliderCart from "./SliderCart";
-import ContentArea from "./ContentArea";
+import Header from "./components/Header";
+import Banner from "./components/Banner";
+import Navbar from "./components/Navbar";
+import SliderCart from "./components/SliderCart";
+import ContentArea from "./components/ContentArea";
 
 function App() {
   return (
