@@ -21,6 +21,8 @@
 }
 .important-area .important-links .item:hover {
   border-left: 8px solid red;
+  transition: 300ms;
+  
 }
 .important-area .important-links .item .img-container{
     background-color: black;

@@ -16,6 +16,7 @@
   }
    .important-links-right .item:hover {
     border-right: 8px solid red;
+    transition: 300ms;
   }
    .important-links-right .item .img-container{
       background-color: black;
