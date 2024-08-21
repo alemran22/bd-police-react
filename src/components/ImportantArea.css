@@ -1,9 +1,9 @@
-.important-area{
+.important-area {
   display: flex;
   gap: 20px;
   margin-bottom: 20px;
 }
-.important-area .important-link-items{
+.important-area .important-link-items {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -21,29 +21,28 @@
   padding: 8px 0;
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
 }
 .important-area .important-link-items .item:hover {
   border-left: 8px solid red;
   transition: 300ms;
-  
 }
-.important-area .important-link-items .item .img-container{
-    background-color: black;
-    border-radius: 0 50px 50px 0 ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 53px;
-    height: 50px;
+.important-area .important-link-items .item .img-container {
+  background-color: black;
+  border-radius: 0 50px 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 53px;
+  height: 50px;
 }
-.important-area .important-link-items .item .img-container img{
-   width: 100%; 
-   padding: 5px;
-   border-radius: 0 50px 50px 0 ;
+.important-area .important-link-items .item .img-container img {
+  width: 100%;
+  padding: 5px;
+  border-radius: 0 50px 50px 0;
 }
 .important-area .notice-board {
   width: 66%;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
 }

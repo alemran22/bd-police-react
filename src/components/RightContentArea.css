@@ -1,7 +1,14 @@
-.right-content-area{
-    width: 25%;
-   display: flex;
-   flex-direction: column;
-   gap: 3px;
-   align-items: start;   
+.total-right {
+  width: 25%;
+}
+.total-right .right-content-area-top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: start;
+  overflow: hidden;
+}
+.total-right .right-content-area-top a {
+  font-size: 17px;
 }
