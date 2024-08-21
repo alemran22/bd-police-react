@@ -6,14 +6,17 @@
   box-shadow: 2px 2px 4px 2px silver;
 }
 .service-card .card-title {
-  padding-top: 25px;
+  padding: 15px;
   padding-left: 5px;
   font-weight: 500;
+  font-size: 18px;
+  font-family: "Noto Serif Bengali", serif;
 }
 .service-card .service-card-content {
   display: flex;
   flex-direction: row;
   align-items: start;
+
   gap: 20px;
 }
 .service-card .service-card-content .left {
@@ -35,4 +38,5 @@
 .service-card .service-card-content .right a {
   color: #131b43;
   text-decoration: none;
+  font-size: 15px;
 }

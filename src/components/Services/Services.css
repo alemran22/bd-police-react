@@ -1,6 +1,7 @@
 .services {
   background-color: #f0f0f0;
   padding: 15px;
+  width: 100%;
 }
 .services .service-card-container {
   display: grid;
@@ -9,11 +10,11 @@
   row-gap: 10px;
   margin-top: 10px;
 }
-.services.more-button-container {
+.services .more-button-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: auto;
+  margin: 0 0 10px 0;
 }
 .services .more-button {
   background-color: black;
