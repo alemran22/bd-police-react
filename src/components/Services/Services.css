@@ -39,10 +39,13 @@
 .services .video-section .video-container {
   display: flex;
   justify-content: space-between;
+  gap: 8px;
+}
+.services .video-section .video-container .video-content {
   background-color: white;
-  padding: 15px;
+  padding: 10px;
 }
 .services .video-section .video-container .video-content iframe {
-  width: 280px;
+  width: 272px;
   height: 223px;
 }
