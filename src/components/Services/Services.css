@@ -23,3 +23,26 @@
   padding: 4px 8px;
   text-align: center;
 }
+
+.services .video-section {
+  margin: 25px 0;
+}
+.services .video-section .title {
+  background-color: #131b43;
+  margin: 10px 0;
+  padding: 3px 5px;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Noto Serif Bengali";
+}
+.services .video-section .video-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 15px;
+}
+.services .video-section .video-container .video-content iframe {
+  width: 280px;
+  height: 223px;
+}

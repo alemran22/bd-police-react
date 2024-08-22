@@ -33,7 +33,7 @@
 .service-card .service-card-content .right .link-container {
   display: flex;
   gap: 6px;
-  align-items: center;
+  align-items: start;
 }
 .service-card .service-card-content .right a {
   color: #131b43;
